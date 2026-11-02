@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+.env
+.env.*
+references/
+*.zip
+*.7z
+*.rar
+LAB1_MASTER_PLAN_*
+Задание_проекта.md
+01_analysis_*.ipynb
+Untitled*.ipynb
