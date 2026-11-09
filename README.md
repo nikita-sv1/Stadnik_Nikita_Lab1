@@ -18,6 +18,4 @@
 4. Подготовленные таблицы появятся в `data/processed/`, журнал и список кампании в корне.
 5. Один раз установить браузер для экспорта: `uv run python -m playwright install chromium --only-shell`. Собрать PDF через `uv run python export_report.py`. Скрипт вызывает `nbconvert --to webpdf --no-input --execute` и учитывает несовместимость стандартного запуска Chromium с циклом событий `nbconvert` в Windows. В других системах можно использовать команду из задания: `uv run jupyter nbconvert --to webpdf --no-input --execute 02_report.ipynb --output report.pdf`.
 
-Данные и окружение исключены из Git. Зависимости зафиксированы в `pyproject.toml` и `uv.lock`.
-
-Учебные материалы и прежние версии сохранены локально рядом с проектом, в `../LAB_1_materials/`; для выполнения готовой работы они не нужны.
+Зависимости зафиксированы в `pyproject.toml` и `uv.lock`.
